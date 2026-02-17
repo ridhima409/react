@@ -8,13 +8,13 @@ const App = () => {
   const reset = () => setCount(0)
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-500 to-purple-600">
+    <div className="flex items-center justify-center min-h-screen bg-linear-to-br from-blue-500 to-purple-600">
       <div className="bg-white rounded-lg shadow-2xl p-8 w-80">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
           Counter
         </h1>
         
-        <div className="bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg p-8 mb-8">
+        <div className="bg-linear-to-r from-blue-400 to-purple-500 rounded-lg p-8 mb-8">
           <p className="text-6xl font-bold text-white text-center">
             {count}
           </p>
