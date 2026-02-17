@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd my-react && npm run build",
+  "devCommand": "cd my-react && npm run dev",
+  "installCommand": "cd my-react && npm install",
+  "framework": "vite",
+  "outputDirectory": "my-react/dist"
+}
